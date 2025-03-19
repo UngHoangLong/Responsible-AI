@@ -2,5 +2,5 @@
 
 This project uses the preprocessed version of ViHSD dataset.
 
-- **Source dataset:** [ViHSD on Hugging Face](https://huggingface.co/datasets/htdung167/ViHSD)
+- **Source dataset:** [ViHSD](https://huggingface.co/datasets/htdung167/ViHSD)
 - **Preprocessed version:** [Say_It_Right](https://huggingface.co/datasets/UngLong/Say_It_Right)
