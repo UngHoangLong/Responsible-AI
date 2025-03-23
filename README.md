@@ -1,5 +1,6 @@
 # Say It Right - Responsible AI for Online Conversations  🌐🤖
 
+---
 
 
 ## 🚀 Giới Thiệu
@@ -32,6 +33,8 @@ Trên mạng xã hội, ngôn từ thô tục và tiêu cực vẫn đang lan tr
 
 - WebSocket - Tăng tốc độ phản hồi từ AI đến người dùng.
 
+---
+
 ## 💡 Vấn Đề & Giải Pháp
 
 🔥 Thực Trạng Hiện Nay
@@ -45,20 +48,37 @@ TikTok là nền tảng có tỷ lệ ngôn từ tiêu cực cao nhất (nhóm t
 ✅ Giải Pháp Của Chúng Tôi
 
 ✔ Phát hiện & nhận diện ngôn từ độc hại trước khi bình luận được đăng tải.
+
 ✔ Tự động chuyển đổi câu văn sang phiên bản nhẹ nhàng hơn, giữ nguyên ý nghĩa nhưng giảm cường độ tiêu cực.
+
 ✔ Tạo thói quen giao tiếp văn minh, giảm nguy cơ bị báo cáo hoặc kiểm duyệt từ nền tảng.
 
 🔥 Ưu Điểm Cạnh Tranh
 
-✅ Hỗ trợ tiếng Việt chuyên sâu - Nhận diện và xử lý ngôn ngữ tự nhiên hiệu quả.✅ Kết hợp cả phát hiện & tái tạo nội dung - Không chỉ kiểm duyệt mà còn giúp người dùng giữ được quan điểm.✅ Triển khai dễ dàng & linh hoạt - Chỉ cần cài đặt extension, không yêu cầu hạ tầng mạnh.✅ Ứng dụng công nghệ tiên tiến - Kết hợp CafeBERT & ViT5 để tối ưu xử lý ngôn ngữ.✅ Tối ưu chi phí triển khai - Chạy trên cloud, không tốn tài nguyên người dùng.
+✅ Hỗ trợ tiếng Việt chuyên sâu - Nhận diện và xử lý ngôn ngữ tự nhiên hiệu quả.
+
+✅ Kết hợp cả phát hiện & tái tạo nội dung - Không chỉ kiểm duyệt mà còn giúp người dùng giữ được quan điểm.
+
+✅ Triển khai dễ dàng & linh hoạt - Chỉ cần cài đặt extension, không yêu cầu hạ tầng mạnh.
+
+✅ Ứng dụng công nghệ tiên tiến - Kết hợp CafeBERT & ViT5 để tối ưu xử lý ngôn ngữ.
+
+✅ Tối ưu chi phí triển khai - Chạy trên cloud, không tốn tài nguyên người dùng.
 
 ⚠️ Thách Thức & Hạn Chế
 
 ❌ Giới hạn về nhân lực & kinh phí - Không thể xây dựng dataset từ đầu, cần tái gán nhãn từ tập dữ liệu có sẵn.
+
 ❌ Gán nhãn dataset phụ thuộc nhiều vào AI - Có thể dẫn đến sai sót khi fine-tune mô hình Seq2Seq.
+
 ❌ Xử lý ngữ cảnh phức tạp - Một số câu toxic có ý nghĩa ẩn dụ, khó xử lý chính xác.
+
 ❌ Thay đổi nhanh chóng của ngôn ngữ mạng - Cần cập nhật liên tục để theo kịp các biến thể mới.
+
 ❌ Cạnh tranh với các hệ thống kiểm duyệt lớn - Facebook, TikTok có thể phát triển hệ thống riêng.
+
+
+---
 
 ## 📅 Lộ Trình Phát Triển
 
@@ -103,6 +123,47 @@ TikTok là nền tảng có tỷ lệ ngôn từ tiêu cực cao nhất (nhóm t
 - Chờ xét duyệt (1 - 7 ngày).
 
 - Thu thập phản hồi & cải tiến liên tục.
+
+---
+
+## 📚 Dataset & Mô Hình Được Sử Dụng
+
+### 📌 Dataset
+
+**ViHOS - Vietnamese Hate Offensive Speech**
+
+- Github: https://github.com/phusroyal/ViHOS 
+
+- Hugging Face: https://huggingface.co/datasets/htdung167/ViHOS
+
+**ViTHSD - Vietnamese Toxic & Hate Speech Detection**
+
+- Github: https://github.com/bakansm/ViTHSD
+
+- Paper: https://arxiv.org/abs/2404.19252
+
+**ViHSD - Vietnamese Hate Speech Detection**
+
+- Github: https://github.com/sonlam1102/vihsd
+
+- Hugging Face: https://huggingface.co/datasets/htdung167/ViHSD
+
+### 📌 Pre-trained Language Models (PLMs)
+CafeBERT - Pre-trained Transformer model for Vietnamese NLP
+
+- Paper: https://arxiv.org/abs/2403.15882
+
+- Hugging Face: https://huggingface.co/uitnlp/CafeBERT
+
+ViT5-base - Vietnamese T5 model for text generation
+
+- Github: https://github.com/vietai/ViT5
+
+- Hugging Face: https://huggingface.co/VietAI/vit5-base
+
+- Paper: https://arxiv.org/abs/2205.06457
+
+---
 
 ## 📬 Liên Hệ
 
